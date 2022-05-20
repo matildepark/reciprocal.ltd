@@ -22,6 +22,7 @@ const skill = [
   "software archeology",
   "Doom modding",
   "esoteric programming languages",
+  "machine learning",
 ];
 
 export default function About() {
@@ -41,7 +42,7 @@ export default function About() {
           </a>
           <a
             className="text-4xl px-64 hover:underline cursor-pointer"
-            href="https://timeflayer.com"
+            href="https://civ.rip"
             target="_blank"
           >
             <span>PHOEBE JENKINS</span>
