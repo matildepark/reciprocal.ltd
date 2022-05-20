@@ -54,7 +54,7 @@ export default function About() {
         <p className="pt-16">Ask us about...</p>
       </div>
       <div
-        className="flex flex-wrap h-screen justify-between items-center"
+        className="flex flex-wrap min-h-screen justify-between items-center"
         style={{ backgroundColor: "magenta" }}
       >
         {skill
