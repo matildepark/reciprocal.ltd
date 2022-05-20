@@ -23,7 +23,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
+            content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.31.08-twit.png"
           />
         </Head>
         <body>
