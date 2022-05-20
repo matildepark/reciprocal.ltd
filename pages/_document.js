@@ -14,6 +14,17 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap"
             rel="stylesheet"
           />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@reciprocal-ltd" />
+          <meta name="twitter:title" content="Reciprocal Ltd." />
+          <meta
+            name="twitter:description"
+            content="Reciprocal Ltd. is an interactive design and development studio."
+          />
+          <meta
+            name="twitter:image"
+            content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
+          />
         </Head>
         <body>
           <Main />
