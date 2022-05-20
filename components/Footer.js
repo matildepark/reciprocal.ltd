@@ -1,11 +1,19 @@
-import styles from './Footer.module.css'
+import Link from "next/link";
 
-export default function Footer() {
+export default function Footer({ ...props }) {
   return (
-    <>
-      <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
-      </footer>
-    </>
-  )
+    <footer
+      {...props}
+      className="fixed bottom-0 left-0 mix-blend-difference flex items-center"
+    >
+      <img
+        className="w-48 pr-8 invert"
+        src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
+      />
+      <Link href="/about" passHref>
+        <a className="text-2xl text-white pr-8 hover:text-red-700">ABOUT</a>
+      </Link>
+      {/* <p className="text-2xl text-white">PORTFOLIO</p> */}
+    </footer>
+  );
 }
