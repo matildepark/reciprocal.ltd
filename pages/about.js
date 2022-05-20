@@ -1,4 +1,5 @@
 import Footer from "@components/Footer";
+import Head from "next/head";
 import Header from "@components/Header";
 import Marquee from "react-fast-marquee";
 
@@ -29,6 +30,13 @@ export default function About() {
   const direction = (i) => (i % 2 ? "" : "-");
   return (
     <>
+      <Head>
+        <title>Reciprocal Ltd. - About</title>
+        <link
+          rel="icon"
+          href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
+        />
+      </Head>
       <div className="pt-16 p-4 bg-black text-white">
         <Header />
         <p>Staff</p>
