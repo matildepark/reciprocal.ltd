@@ -14,6 +14,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap"
             rel="stylesheet"
           />
+          <link href="/fonts.css" rel="stylesheet" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@reciprocal-ltd" />
           <meta name="twitter:title" content="Reciprocal Ltd." />

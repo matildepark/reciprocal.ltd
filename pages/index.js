@@ -22,7 +22,7 @@ export default function Home() {
     <div className="container h-screen bg-black text-white">
       <div className="z-0 absolute top-0 left-0" ref={sceneEl}>
         <img
-          className="absolute top-0 left-0 object-fill invert"
+          className="absolute top-0 left-0 object-cover invert"
           data-depth="0.05"
           style={{
             height: "150vh",
@@ -31,7 +31,7 @@ export default function Home() {
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal0-dither.png"
         />
         <img
-          className="absolute top-0 left-0 object-fill"
+          className="absolute top-0 left-0 object-cover"
           data-depth="0.1"
           style={{
             height: "150vh",
@@ -40,7 +40,7 @@ export default function Home() {
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal1-dither.png"
         />
         <img
-          className="absolute top-0 left-0 object-fill"
+          className="absolute top-0 left-0 object-cover"
           data-depth="0.25"
           style={{
             height: "150vh",
