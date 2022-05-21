@@ -1,10 +1,13 @@
 import Link from "next/link";
 
-export default function Footer({ ...props }) {
+export default function Footer({ black, ...props }) {
   return (
     <footer
       {...props}
-      className="fixed bottom-0 left-0 mix-blend-difference flex items-center"
+      className={
+        "fixed bottom-0 left-0 flex items-center " +
+        (black ? "bg-black" : "mix-blend-difference")
+      }
     >
       <img
         className="w-48 pr-8 invert"
