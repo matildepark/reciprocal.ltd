@@ -57,7 +57,7 @@ export default function Home() {
         />
       </Head>
 
-      <h2 className="text-center text-4xl z-10 bg-black p-2">
+      <h2 className="text-center text-4xl z-10 bg-black p-2 fixed">
         Reciprocal Ltd. is an interactive design and development studio.
       </h2>
 
