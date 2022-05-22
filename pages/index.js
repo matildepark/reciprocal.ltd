@@ -25,7 +25,7 @@ export default function Home() {
           className="absolute top-0 left-0 object-cover invert"
           data-depth="0.05"
           style={{
-            height: "150vh",
+            height: "100vh",
             width: "150vw",
           }}
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal0-dither.png"
@@ -34,16 +34,16 @@ export default function Home() {
           className="absolute top-0 left-0 object-cover"
           data-depth="0.1"
           style={{
-            height: "150vh",
+            height: "100vh",
             width: "150vw",
           }}
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal1-dither.png"
         />
         <img
           className="absolute top-0 left-0 object-cover"
-          data-depth="0.25"
+          data-depth="0.15"
           style={{
-            height: "150vh",
+            height: "100vh",
             width: "150vw",
           }}
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal2-weboptimized.png"
