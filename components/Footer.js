@@ -14,7 +14,7 @@ export default function Footer({ black, ...props }) {
         src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
       />
       <Link href="/about" passHref>
-        <a className="text-2xl text-white pr-8 hover:text-magenta">ABOUT</a>
+        <a className="text-2xl text-white pr-8 hover:text-magenta">/about</a>
       </Link>
       {/* <p className="text-2xl text-white">PORTFOLIO</p> */}
     </footer>
