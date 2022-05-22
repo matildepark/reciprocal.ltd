@@ -5,7 +5,7 @@ export default function Header({ ...props }) {
     <Link href="/">
       <p
         {...props}
-        className="text-3xl mix-blend-difference fixed top-4 left-4 cursor-pointer hover:text-red-600"
+        className="text-4xl font-sans mix-blend-difference fixed top-4 left-4 cursor-pointer hover:text-magenta"
       >
         ←
       </p>
