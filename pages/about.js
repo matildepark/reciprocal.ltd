@@ -40,7 +40,12 @@ export default function About() {
       <div className="pt-16 p-4 bg-black text-white">
         <Header />
         <p>Staff</p>
-        <Marquee gradient={false} speed={250} pauseOnHover>
+        <Marquee
+          gradient={false}
+          speed={250}
+          pauseOnHover
+          style={{ overflow: "hidden" }}
+        >
           <a
             className="text-4xl px-64 hover:underline cursor-pointer"
             href="https://matildepark.ca"
@@ -67,7 +72,7 @@ export default function About() {
       </div>
       <div
         className="flex flex-wrap min-h-screen justify-between items-center"
-        style={{ backgroundColor: "magenta" }}
+        style={{ backgroundColor: "magenta", maxWidth: "99vw" }}
       >
         {skill
           .map((value) => ({ value, sort: Math.random() }))
@@ -75,7 +80,7 @@ export default function About() {
           .map((e) => e.value)
           .map((e, i) => (
             <p
-              className="basis-1/4 text-2xl p-4 border-b border-transparent hover:border-black cursor-help"
+              className="basis-1/4 text-2xl text-center p-4 border-b border-transparent hover:border-black cursor-help"
               id="entry"
               style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
             >
