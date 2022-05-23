@@ -43,3 +43,14 @@ code {
 #entry:hover {
   transform: rotate(0deg) !important;
 }
+
+.spin:hover {
+  animation: 0.5s spin ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg) scale(1);}
+  87% {transform: rotate(360deg) scale(2);}
+  100% {transform: rotate(360deg) scale(4);}
+}
