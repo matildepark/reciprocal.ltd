@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="Reciprocal Ltd." />
           <meta
             name="twitter:description"
-            content="Reciprocal Ltd. is an interactive design and development studio."
+            content="Reciprocal is an interactive design and development studio."
           />
           <meta
             name="twitter:image"

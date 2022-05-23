@@ -8,10 +8,7 @@ export default function Home() {
   const sceneEl = useRef(null);
 
   useEffect(() => {
-    const parallaxInstance = new Parallax(sceneEl.current, {
-      relativeInput: true,
-      hoverOnly: true,
-    });
+    const parallaxInstance = new Parallax(sceneEl.current, {});
 
     parallaxInstance.enable();
 
@@ -58,7 +55,7 @@ export default function Home() {
       </Head>
 
       <h2 className="text-center text-4xl z-10 bg-black p-2 fixed">
-        Reciprocal Ltd. is an interactive design and development studio.
+        Reciprocal is an interactive design and development studio.
       </h2>
 
       <Footer black />
