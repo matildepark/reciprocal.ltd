@@ -71,22 +71,34 @@ export default function About() {
         <p className="pt-16">Ask us about...</p>
       </div>
       <div
-        className="flex flex-wrap min-h-screen justify-between items-center"
-        style={{ backgroundColor: "magenta", maxWidth: "99vw" }}
+        style={{
+          background:
+            "repeating-conic-gradient(magenta 0% 25%, black 0% 50%) 50% / 50px 50px",
+        }}
       >
-        {skill
-          .map((value) => ({ value, sort: Math.random() }))
-          .sort((a, b) => a.sort - b.sort)
-          .map((e) => e.value)
-          .map((e, i) => (
-            <p
-              className="basis-1/4 text-2xl text-center p-4 border-b border-transparent hover:border-black cursor-help"
-              id="entry"
-              style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
-            >
-              {e}
-            </p>
-          ))}
+        <div
+          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-3 mt-24"
+          style={{ backgroundColor: "magenta", maxWidth: "90vw" }}
+        >
+          {skill
+            .map((value) => ({ value, sort: Math.random() }))
+            .sort((a, b) => a.sort - b.sort)
+            .map((e) => e.value)
+            .map((e, i) => (
+              <p
+                className="basis-1/4 text-2xl text-center p-4 border-b border-transparent hover:border-black cursor-help"
+                id="entry"
+                style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
+              >
+                {e}
+              </p>
+            ))}
+        </div>
+      </div>
+      <div className="py-32 text-6xl text-center">
+        <a className="inline-block spin" href="mailto:mp@reciprocal.ltd">
+          ✉️
+        </a>
       </div>
       <Footer />
     </>
