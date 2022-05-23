@@ -24,7 +24,7 @@ class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.31.08-twit.png"
+            content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.23..13.45.18-twit-card.png"
           />
         </Head>
         <body>
