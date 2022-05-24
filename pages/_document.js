@@ -26,6 +26,10 @@ class MyDocument extends Document {
             name="twitter:image"
             content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.23..13.45.18-twit-card.png"
           />
+          <link
+            rel="icon"
+            href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
+          />
         </Head>
         <body>
           <Main />
