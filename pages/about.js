@@ -68,18 +68,18 @@ export default function About() {
             <span>SIMONE IVANISH</span>
           </a>
         </Marquee>
-        <p className="pt-16">Ask us about...</p>
       </div>
-      <div
-        style={{
-          background:
-            "repeating-conic-gradient(magenta 0% 25%, black 0% 50%) 50% / 50px 50px",
-        }}
-      >
+      <div id="checkerboard">
         <div
-          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-3 mt-24"
-          style={{ backgroundColor: "magenta", maxWidth: "90vw" }}
+          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-3 mt-24 bg-white shadow-2xl shadow-black"
+          style={{ maxWidth: "90vw" }}
         >
+          <div className="shrink-0 w-full flex items-center justify-center">
+            <img
+              className="w-48 basis-1/4 grow-0"
+              src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
+            />
+          </div>
           {skill
             .map((value) => ({ value, sort: Math.random() }))
             .sort((a, b) => a.sort - b.sort)

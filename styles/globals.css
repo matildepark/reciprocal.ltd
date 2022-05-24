@@ -40,6 +40,12 @@ code {
   transition: 1s all ease;
 }
 
+#checkerboard {
+  background: repeating-conic-gradient(magenta 0% 25%, black 0% 50%) 50% / 50px 50px;
+  background-repeat: repeat;
+  animation: 20s slide infinite linear;
+}
+
 #entry:hover {
   transform: rotate(0deg) !important;
 }
@@ -53,4 +59,13 @@ code {
   from {transform: rotate(0deg) scale(1);}
   87% {transform: rotate(360deg) scale(2);}
   100% {transform: rotate(360deg) scale(4);}
+}
+
+@keyframes slide {
+  from {
+    background-position: top right;
+  }
+  to {
+    background-position: bottom left;
+  }
 }
