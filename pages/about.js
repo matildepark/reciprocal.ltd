@@ -3,7 +3,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Marquee from "react-fast-marquee";
 import { Rnd } from "react-rnd";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import skill from "content/skill";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
@@ -11,6 +11,19 @@ import rehypeRaw from "rehype-raw";
 export default function About() {
   const direction = (i) => (i % 2 ? "" : "-");
   const [displayed, setDisplayed] = useState([]);
+  const [skills, setSkills] = useState([]);
+
+  useEffect(
+    () =>
+      setSkills(
+        skill
+          .map((value) => ({ value, sort: Math.random() }))
+          .sort((a, b) => a.sort - b.sort)
+          .map((e) => e.value)
+      ),
+    [skill]
+  );
+
   return (
     <>
       <Head>
@@ -89,6 +102,7 @@ export default function About() {
               zIndex: i + 2,
               background: "#004d9c",
               border: "4px solid #004d9c",
+              boxShadow: "2px 2px 0px 0px #000000",
             }}
             className="text-white font-topaz antialiased overflow-y-auto overflow-x-hidden"
             key={e.name}
@@ -100,7 +114,7 @@ export default function About() {
             }}
           >
             <div
-              className="w-full bg-white px-1 flex justify-between sticky top-0"
+              className="w-full bg-white px-1 flex justify-between sticky top-0 z-10 scroll-m-0"
               style={{ color: "#004d9c" }}
             >
               {e.name}
@@ -130,20 +144,17 @@ export default function About() {
               src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
             />
           </div>
-          {skill
-            .map((value) => ({ value, sort: Math.random() }))
-            .sort((a, b) => a.sort - b.sort)
-            .map((e) => e.value)
-            .map((e, i) => (
-              <p
-                className="basis-1/4 text-2xl text-center p-4 border-b border-transparent hover:border-black cursor-help"
-                id="entry"
-                onClick={() => setDisplayed([...displayed, e])}
-                style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
-              >
-                {e.name}
-              </p>
-            ))}
+          {skills.map((e, i) => (
+            <p
+              className="basis-1/4 text-2xl text-center p-4 border-4 border-double border-transparent hover:border-black cursor-pointer"
+              id="entry"
+              key={e.name}
+              onClick={() => setDisplayed([...displayed, e])}
+              style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
+            >
+              {e.name}
+            </p>
+          ))}
         </div>
       </div>
       <div className="py-32 text-6xl text-center">
