@@ -123,7 +123,7 @@ export default function About() {
           </Rnd>
         ))}
         <div
-          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-3 mt-24 bg-white shadow-2xl shadow-black"
+          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-1 md:rotate-3 mt-24 bg-white shadow-2xl shadow-black"
           style={{ maxWidth: "90vw" }}
         >
           <div className="shrink-0 w-full flex items-center justify-center">
