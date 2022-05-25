@@ -2,32 +2,35 @@ import Footer from "@components/Footer";
 import Head from "next/head";
 import Header from "@components/Header";
 import Marquee from "react-fast-marquee";
+import { Rnd } from "react-rnd";
+import { useState } from "react";
 
 const skill = [
-  "Urbit applications",
-  "front-end development",
-  "video game development",
-  "music and soundtrack production",
-  "art collage",
-  "Tezos",
-  "APL",
-  "J",
-  "K",
-  "Chialisp",
-  "Postscript",
-  "security consulting and research",
-  "weird machines",
-  "creepypasta",
-  "p2p and blockchain systems",
-  "wolves",
-  "software archeology",
-  "Doom modding",
-  "esoteric programming languages",
-  "machine learning",
+  { name: "Urbit applications", content: "" },
+  { name: "front-end development", content: "" },
+  { name: "video game development", content: "" },
+  { name: "music and soundtrack production", content: "" },
+  { name: "art collage", content: "" },
+  { name: "Tezos", content: "" },
+  { name: "APL", content: "" },
+  { name: "J", content: "" },
+  { name: "K", content: "" },
+  { name: "Chialisp", content: "" },
+  { name: "Postscript", content: "" },
+  { name: "security consulting and research", content: "" },
+  { name: "weird machines", content: "" },
+  { name: "creepypasta", content: "" },
+  { name: "p2p and blockchain systems", content: "" },
+  { name: "wolves", content: "" },
+  { name: "software archeology", content: "" },
+  { name: "Doom modding", content: "" },
+  { name: "esoteric programming languages", content: "" },
+  { name: "machine learning", content: "" },
 ];
 
 export default function About() {
   const direction = (i) => (i % 2 ? "" : "-");
+  const [displayed, setDisplayed] = useState([]);
   return (
     <>
       <Head>
@@ -100,6 +103,25 @@ export default function About() {
         </Marquee>
       </div>
       <div id="checkerboard">
+        {displayed.map((e, i) => (
+          <Rnd
+            style={{
+              zIndex: i + 2,
+              background: "blue",
+              border: "3px solid orange",
+            }}
+            className="text-white"
+            key={`rnd-${i}`}
+            default={{
+              width: 200,
+              height: 200,
+              x: (i + 1) * 100,
+              y: (i + 1) * 100,
+            }}
+          >
+            {e.content}
+          </Rnd>
+        ))}
         <div
           className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-3 mt-24 bg-white shadow-2xl shadow-black"
           style={{ maxWidth: "90vw" }}
@@ -118,9 +140,10 @@ export default function About() {
               <p
                 className="basis-1/4 text-2xl text-center p-4 border-b border-transparent hover:border-black cursor-help"
                 id="entry"
+                onClick={() => setDisplayed([...displayed, e])}
                 style={{ transform: `rotate(${direction(i)}${i + 1 / 5}deg)` }}
               >
-                {e}
+                {e.name}
               </p>
             ))}
         </div>
