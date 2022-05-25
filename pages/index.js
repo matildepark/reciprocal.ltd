@@ -19,7 +19,7 @@ export default function Home() {
     <div className="container h-screen bg-black text-white">
       <div className="z-0 absolute top-0 left-0" ref={sceneEl}>
         <img
-          className="absolute top-0 left-0 object-cover invert"
+          className="absolute top-0 left-0 object-cover"
           data-depth="0.05"
           style={{
             height: "100vh",
@@ -54,7 +54,7 @@ export default function Home() {
         />
       </Head>
 
-      <h2 className="text-center flex items-center text-4xl z-10 bg-black pr-2 fixed">
+      <h2 className="text-center hidden md:flex items-center text-4xl z-10 bg-black pr-2 fixed">
         <img
           className="w-24 pr-4"
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
