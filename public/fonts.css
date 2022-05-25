@@ -5,3 +5,11 @@
     font-display: swap;
     src: url(/FT88-Regular.woff2) format('woff2');
   }
+
+  @font-face {
+    font-family: 'Topaz';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/topaz.woff2) format('woff2');
+  }

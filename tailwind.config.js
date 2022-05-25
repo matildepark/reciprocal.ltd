@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        topaz: "Topaz",
+      },
       colors: {
         magenta: "magenta",
       },
