@@ -3,30 +3,10 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Marquee from "react-fast-marquee";
 import { Rnd } from "react-rnd";
-import { useState } from "react";
-
-const skill = [
-  { name: "Urbit applications", content: "" },
-  { name: "front-end development", content: "" },
-  { name: "video game development", content: "" },
-  { name: "music and soundtrack production", content: "" },
-  { name: "art collage", content: "" },
-  { name: "Tezos", content: "" },
-  { name: "APL", content: "" },
-  { name: "J", content: "" },
-  { name: "K", content: "" },
-  { name: "Chialisp", content: "" },
-  { name: "Postscript", content: "" },
-  { name: "security consulting and research", content: "" },
-  { name: "weird machines", content: "" },
-  { name: "creepypasta", content: "" },
-  { name: "p2p and blockchain systems", content: "" },
-  { name: "wolves", content: "" },
-  { name: "software archeology", content: "" },
-  { name: "Doom modding", content: "" },
-  { name: "esoteric programming languages", content: "" },
-  { name: "machine learning", content: "" },
-];
+import React, { useState } from "react";
+import skill from "content/skill";
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 export default function About() {
   const direction = (i) => (i % 2 ? "" : "-");
@@ -107,19 +87,37 @@ export default function About() {
           <Rnd
             style={{
               zIndex: i + 2,
-              background: "blue",
-              border: "3px solid orange",
+              background: "#004d9c",
+              border: "4px solid #004d9c",
             }}
-            className="text-white"
-            key={`rnd-${i}`}
+            className="text-white font-topaz antialiased overflow-y-auto overflow-x-hidden"
+            key={e.name}
             default={{
-              width: 200,
-              height: 200,
+              width: 400,
+              height: 350,
               x: (i + 1) * 100,
               y: (i + 1) * 100,
             }}
           >
-            {e.content}
+            <div
+              className="w-full bg-white px-1 flex justify-between sticky top-0"
+              style={{ color: "#004d9c" }}
+            >
+              {e.name}
+              <span
+                className="cursor-pointer"
+                onClick={() =>
+                  setDisplayed(displayed.filter((prompt) => prompt !== e))
+                }
+              >
+                x
+              </span>
+            </div>
+            <ReactMarkdown
+              className="markdown"
+              children={e.content}
+              rehypePlugins={[rehypeRaw]}
+            ></ReactMarkdown>
           </Rnd>
         ))}
         <div

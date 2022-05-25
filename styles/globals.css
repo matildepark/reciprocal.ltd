@@ -36,6 +36,14 @@ code {
   margin: 0 auto;
 }
 
+.markdown a {
+  border-bottom: 2px dashed white;
+}
+
+.markdown p {
+  margin-top: 0.25rem;
+}
+
 #entry {
   transition: 1s all ease;
 }
