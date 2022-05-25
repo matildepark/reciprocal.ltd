@@ -146,7 +146,7 @@ export default function About() {
           </div>
           {skills.map((e, i) => (
             <p
-              className="basis-1/4 text-2xl text-center p-4 border-4 border-double border-transparent hover:border-black cursor-pointer"
+              className="basis-1/4 text-2xl text-center p-4 border-b-4 border-double border-transparent hover:border-black cursor-pointer"
               id="entry"
               key={e.name}
               onClick={() => setDisplayed([...displayed, e])}

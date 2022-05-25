@@ -40,7 +40,7 @@ code {
   border-bottom: 2px dashed white;
 }
 
-.markdown p {
+.markdown p, .markdown iframe {
   margin-top: 0.25rem;
 }
 
