@@ -43,6 +43,16 @@ code {
   margin-top: 0.25rem;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 #entry {
   transition: 1s all ease;
 }
@@ -76,3 +86,4 @@ code {
     background-position: bottom left;
   }
 }
+
