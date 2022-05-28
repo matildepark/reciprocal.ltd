@@ -34,9 +34,22 @@ PJ and SI both create and curate Roblox experiences -- see [Fire Blox with Me](h
     content:
       "PJ got everyone else into collages. This site uses one on the homepage -- so does MP's website.",
   },
-  { name: "Tezos", content: "" },
-  { name: "APL + J + K", content: "" },
-  { name: "Chialisp", content: "" },
+  {
+    name: "Tezos",
+    content: `[PJ](mailto:pj@reciprocal.ltd) participated in the [Least Authority security audit](https://leastauthority.com/wp-content/uploads/2021/09/Least-Authority-Tezos-Foundation-Synthetic-Asset-Platform-Smart-Contracts-Final-Audit-Report.pdf) of the Synthetic Asset platform smart contracts for Tezos.`,
+  },
+  {
+    name: "APL + J + K",
+    content: `PJ has been previously given talks about APL.
+  
+
+Related material:
+<iframe width="300" height="115" src="https://www.youtube.com/embed/UltnvW83_CQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  },
+  {
+    name: "Chialisp",
+    content: `[PJ](mailto:pj@reciprocal.ltd) participated in the [Least Authority security audit](https://leastauthority.com/static/publications/LeastAuthority_Chia_Network_Coloured_Coin_Implementation_Final_Audit_Report.pdf) of the Colored Coin implementation for the Chia network.`,
+  },
   { name: "Postscript", content: "" },
   { name: "security consulting and research", content: "" },
   { name: "weird machines", content: "" },
