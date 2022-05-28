@@ -103,18 +103,19 @@ export default function About() {
               background: "#004d9c",
               border: "4px solid #004d9c",
               boxShadow: "2px 2px 0px 0px #000000",
+              maxWidth: "300px",
             }}
-            className="text-white font-topaz antialiased overflow-y-auto overflow-x-hidden"
+            className="text-white font-topaz antialiased overflow-y-auto overflow-x-hidden no-scrollbar"
             key={e.name}
             default={{
-              width: 400,
-              height: 350,
+              width: 350,
+              height: "fit-content",
               x: (i + 1) * 100,
               y: (i + 1) * 100,
             }}
           >
             <div
-              className="w-full bg-white px-1 flex justify-between sticky top-0 z-10 scroll-m-0"
+              className="w-full bg-white px-1 flex justify-between sticky top-0 z-10"
               style={{ color: "#004d9c" }}
             >
               {e.name}
@@ -130,6 +131,7 @@ export default function About() {
             <ReactMarkdown
               className="markdown"
               children={e.content}
+              linkTarget="_blank"
               rehypePlugins={[rehypeRaw]}
             ></ReactMarkdown>
           </Rnd>
