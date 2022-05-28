@@ -53,7 +53,11 @@ export default function Home() {
           href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
         />
       </Head>
-
+      <img
+        className="flex items-center z-10 md:hidden px-12 mix-blend-multiply"
+        src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
+      />
+      <p className="text-8xl mt-8 md:hidden z-10 text-black font-sans">ꜜ</p>
       <h2 className="text-center hidden md:flex items-center text-4xl z-10 bg-black pr-2 fixed">
         <img
           className="w-24 pr-4"

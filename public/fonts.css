@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'FT88';
+    font-family: 'Steps Mono';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/FT88-Regular.woff2) format('woff2');
+    src: url(/steps.woff2) format('woff2');
   }
 
   @font-face {

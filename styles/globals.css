@@ -16,8 +16,7 @@ body {
 }
 
 footer {
-  font-family: "FT88";
-  letter-spacing: -0.2rem;
+  font-family: "Steps Mono";
   text-rendering: optimizeSpeed;
 }
 code {
