@@ -31,6 +31,22 @@ export default function About() {
       </Head>
       <div className="pt-16 p-4 bg-black text-white">
         <Header />
+        <div className="py-2 md:py-32 max-w-screen-md mx-auto">
+          <h2 className="font-sans text-center text-3xl pb-16">
+            Reciprocal Ltd. is an interactive design and development studio.
+          </h2>
+          <p className="py-4">
+            We provide full development service (product management and
+            specification, development, design and deployment) for web and
+            esoteric applications; graphic and product design, music and sound
+            design, as well as serve as a consultancy for cybersecurity.
+          </p>
+          <p>
+            Our internal projects are geared toward formal experiments in
+            digital art, interactive media, cryptographic technologies, and
+            video games.
+          </p>
+        </div>
         <p className="flex flex-col md:flex-row justify-between">
           <span>Staff</span>
           <span className="uppercase text-xs">
