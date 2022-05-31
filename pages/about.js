@@ -31,7 +31,7 @@ export default function About() {
       </Head>
       <div className="pt-16 p-4 bg-black text-white">
         <Header />
-        <div className="py-2 md:py-32 max-w-screen-md mx-auto">
+        <div className="py-2 pb-16 md:py-32 max-w-screen-md mx-auto">
           <h2 className="font-sans text-center text-3xl pb-16">
             Reciprocal Ltd. is an interactive design and development studio.
           </h2>
