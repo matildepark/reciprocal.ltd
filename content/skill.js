@@ -50,10 +50,21 @@ Related material:
     name: "Chialisp",
     content: `[PJ](mailto:pj@reciprocal.ltd) participated in the [Least Authority security audit](https://leastauthority.com/static/publications/LeastAuthority_Chia_Network_Coloured_Coin_Implementation_Final_Audit_Report.pdf) of the Colored Coin implementation for the Chia network.`,
   },
-  { name: "Postscript", content: "" },
+  {
+    name: "Postscript",
+    content: `It's [PJ](mailto:pj@reciprocal.ltd)'s "[favorite free widely-available Forth implementation](https://civ.rip/ps/)".`,
+  },
   { name: "security consulting and research", content: "" },
-  { name: "weird machines", content: "" },
-  { name: "creepypasta", content: "" },
+  {
+    name: "weird machines",
+    content: `>From a theoretical perspective, the emergence of [weird machines](https://en.wikipedia.org/wiki/Weird_machine) becomes clear when one considers software as a way to restrict the number of reachable states and state transitions of a computer: The general-purpose CPU is, through software, specialized to simulate a finite-state machine (with potentially very large state space). Many states the CPU could be in are excluded, and certain state transitions are ruled out - for example those that violate the software's security requirements. When the system is somehow moved into a state that "makes no sense" when viewed from the perspective of the intended finite-state machine (through memory corruption, hardware failure, or other programming mistakes), the software will keep transforming the broken state into new broken states, triggered by further user input. A new computational device arises: The weird machine which can reach different states of the CPU than the programmer anticipated, and which does so in reaction to inputs.
+
+[PJ](pj@reciprocal.ltd) gave a talk on the subject [here](https://civ.rip/d/wm/).`,
+  },
+  {
+    name: "creepypasta",
+    content: `You ever read [Blood Whistle](https://geosheas-lost-episodes.fandom.com/wiki/Blood_Whistle_%28Super_Mario_Bros_3_Creepypasta%29)? [Bernhard's Door](https://imgur.com/o1Zm3hN)?`,
+  },
   { name: "p2p and blockchain systems", content: "" },
   { name: "wolves", content: "" },
   { name: "software archeology", content: "" },
