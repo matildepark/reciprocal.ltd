@@ -9,7 +9,8 @@ export default function WorkPage() {
   return (
     <>
       <Head>
-        <title>Reciprocal Ltd. - About</title>
+        <title>Reciprocal Ltd. - Portfolio</title>
+        <meta name="theme-color" content="black" />
       </Head>
       <div className="bg-white text-black overflow-hidden">
         <Header black />

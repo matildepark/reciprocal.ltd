@@ -28,6 +28,7 @@ export default function About() {
     <>
       <Head>
         <title>Reciprocal Ltd. - About</title>
+        <meta name="theme-color" content="magenta" />
       </Head>
       <div className="pt-16 p-4 bg-black text-white">
         <Header />
