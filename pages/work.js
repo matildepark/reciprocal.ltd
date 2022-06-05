@@ -129,10 +129,10 @@ export default function WorkPage() {
               sourced from our individual portfolios.
             </p>
             <h2 className="steps text-2xl">Software development</h2>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap portfolio">
               <a target="_blank" href="/portfolio/landscape">
                 <img
-                  className="w-24 h-24 mr-2 rounded-xl object-cover"
+                  className="w-24 h-24 rounded-xl object-cover"
                   src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..15.57.56-original_5ef5d6892515506a74e95258f3168f2a.png"
                 />
               </a>
@@ -141,13 +141,13 @@ export default function WorkPage() {
             <h2 className="steps text-2xl">
               Interactive media and video games
             </h2>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap portfolio">
               <a
                 target="_blank"
                 href="http://aetherinteractive.itch.io/localhost"
               >
                 <img
-                  className="w-24 h-24 mr-2 rounded-xl"
+                  className="w-24 h-24 rounded-xl"
                   src="https://aether.in.net/img/local-itch.jpg"
                 />
               </a>
@@ -156,7 +156,7 @@ export default function WorkPage() {
                 href="http://aetherinteractive.itch.io/subserial-network"
               >
                 <img
-                  className="w-24 h-24 mr-2 rounded-xl"
+                  className="w-24 h-24 rounded-xl"
                   src="https://aether.in.net/img/subserial.jpg"
                 />
               </a>

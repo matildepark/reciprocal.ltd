@@ -94,6 +94,10 @@ code {
   animation-fill-mode: forwards;
 }
 
+.portfolio a {
+  @apply border-4 border-transparent border-double hover:border-white rounded-xl transition-all;
+}
+
 .grid::after {
   content: "";
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
