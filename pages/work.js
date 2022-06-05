@@ -139,6 +139,36 @@ export default function WorkPage() {
               </a>
             </div>
             <h2 className="steps text-2xl">Graphic design</h2>
+            <p>Album covers</p>
+            <div className="flex flex-wrap portfolio">
+              <a
+                target="_blank"
+                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-fortress.png"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-fortress.png"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-gaming.png"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-gaming.png"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-shitpost.png"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-shitpost.png"
+                />
+              </a>
+            </div>
             <h2 className="steps text-2xl">
               Interactive media and video games
             </h2>
