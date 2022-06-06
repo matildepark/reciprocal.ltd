@@ -30,7 +30,7 @@ export default function About() {
         <title>Reciprocal Ltd. - About</title>
         <meta name="theme-color" content="magenta" />
       </Head>
-      <div className="pt-16 p-4 bg-black text-white">
+      <div className="pt-16 p-4 bg-black text-white fadein">
         <Header />
         <div className="py-2 pb-16 md:py-32 max-w-screen-md mx-auto">
           <h2 className="font-sans text-center text-3xl pb-16">
