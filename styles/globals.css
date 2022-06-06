@@ -125,6 +125,13 @@ code {
   animation-fill-mode: forwards;
 }
 
+.inplace {
+  transform: rotate(0deg) translate(0px, 0px);
+  animation: 12s inplace linear;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
 .portfolio h2:nth-child(2) { animation-delay: .1s }
 .portfolio h2:nth-child(3) { animation-delay: .2s }
 .portfolio h2:nth-child(4) { animation-delay: .3s }
@@ -176,5 +183,14 @@ code {
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes inplace {
+  from {
+    transform: rotate(0deg) translate(0px, 0px);
+  }
+  100% {
+    transform: rotate(-2deg) translate(0px, 100px);
   }
 }
