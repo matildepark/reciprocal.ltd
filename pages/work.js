@@ -58,7 +58,7 @@ export default function WorkPage() {
           <h2>PORTFOLIO</h2>
         </div>
         <div className="w-full max-w-screen-sm h-screen absolute pt-16 bg-black mx-auto top-0 overflow-y-auto">
-          <div className="text-white p-6 font-sans list-none flex flex-col space-y-8">
+          <div className="text-white p-6 font-sans list-none flex flex-col space-y-8 pb-16">
             <h2 className="steps text-2xl">Current work</h2>
             <a target="_blank" href="https://banyan.computer">
               <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta cursor-pointer">
