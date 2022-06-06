@@ -21,7 +21,7 @@ export default function WorkPage() {
           >
             <Marquee
               gradient={false}
-              speed={100}
+              speed={20}
               className="invisible md:visible z-0"
             >
               <img
