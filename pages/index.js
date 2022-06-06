@@ -16,8 +16,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="container h-screen bg-black text-white">
-      <div className="z-0 absolute top-0 left-0" ref={sceneEl}>
+    <div className="container h-screen bg-black text-white overflow-hidden">
+      <div className="z-0 absolute top-0 left-0 overflow-hidden" ref={sceneEl}>
         <img
           className="absolute top-0 left-0 object-cover"
           data-depth="0.05"
