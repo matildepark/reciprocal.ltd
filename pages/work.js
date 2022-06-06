@@ -55,6 +55,7 @@ export default function WorkPage() {
           <h2>PORTFOLIO</h2>
           <h2>PORTFOLIO</h2>
           <h2>PORTFOLIO</h2>
+          <h2>PORTFOLIO</h2>
         </div>
         <div className="w-full max-w-screen-sm h-screen absolute pt-16 bg-black mx-auto top-0 overflow-y-auto">
           <div className="text-white p-6 font-sans list-none flex flex-col space-y-8">
@@ -139,7 +140,7 @@ export default function WorkPage() {
               </a>
             </div>
             <h2 className="steps text-2xl">Graphic design</h2>
-            <p>Album covers</p>
+            <p className="font-semibold">Album covers</p>
             <div className="flex flex-wrap portfolio">
               <a
                 target="_blank"
@@ -166,6 +167,24 @@ export default function WorkPage() {
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
                   src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-shitpost.png"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-diameter2.png"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-diameter2.png"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-posiwid.png"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-posiwid.png"
                 />
               </a>
             </div>
