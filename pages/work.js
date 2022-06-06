@@ -16,7 +16,7 @@ export default function WorkPage() {
         <Header black />
         <div className="overflow-hidden checkerboard grid">
           <div
-            className="rotate-12 overflow-hidden"
+            className="wait-and-rotate overflow-hidden"
             style={{ width: "calc(100vw + 200px)" }}
           >
             <Marquee
