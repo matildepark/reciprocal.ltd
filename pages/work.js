@@ -233,7 +233,29 @@ export default function WorkPage() {
             </div>
             <h2 className="steps text-2xl">Cybersecurity work</h2>
             <h2 className="steps text-2xl">Art installations</h2>
+            <div className="flex flex-wrap portfolio">
+              <a href="https://imginn.com/p/CeMBtGpu605/">
+                <img
+                  className="w-24 h-24 rounded-xl"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.06.25-resize.jpeg"
+                />
+              </a>
+            </div>
             <h2 className="steps text-2xl">Desktop publishing</h2>
+            <div className="flex flex-wrap portfolio">
+              <a href="https://civ.rip/sd/">
+                <img
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.20.35-ps1.jpg"
+                  className="w-24 h-24 object-cover rounded-xl"
+                />
+              </a>
+              <a href="https://civ.rip/ps/">
+                <img
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.24.08-ps2.jpg"
+                  className="h-24 w-24 rounded-xl object-cover"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <Footer />
