@@ -232,6 +232,20 @@ export default function WorkPage() {
               </a>
             </div>
             <h2 className="steps text-2xl">Cybersecurity work</h2>
+            <div className="flex flex-wrap portfolio">
+              <a href="https://leastauthority.com/static/publications/LeastAuthority_Swarm_Association_Bee_and_Bee_Clef_Final_Audit_Report.pdf">
+                <img
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.28.34-cs1.jpg"
+                  className="w-24 h-24 rounded-xl object-cover"
+                />
+              </a>
+              <a href="https://leastauthority.com/wp-content/uploads/2021/09/Least-Authority-Tezos-Foundation-Synthetic-Asset-Platform-Smart-Contracts-Final-Audit-Report.pdf">
+                <img
+                  className="w-24 h-24 rounded-xl object-cover"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.29.52-cs2.jpg"
+                />
+              </a>
+            </div>
             <h2 className="steps text-2xl">Art installations</h2>
             <div className="flex flex-wrap portfolio">
               <a href="https://imginn.com/p/CeMBtGpu605/">
