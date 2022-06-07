@@ -78,7 +78,11 @@ Related material:
     content:
       "[PJ](mailto:pj@reciprocal.ltd) is enamored with wolves, and thinks humans should be more like them. Ask her about her about the intricate political machinations that took place in Yellowstone's Druid Peak Pack.",
   },
-  { name: "software archeology", content: "" },
+  {
+    name: "software archeology",
+    content:
+      "PJ and SI share an interest in marginal software. PJ is extensively familiar with unique tools for *nix systems that have fallen out of favor. PJ once resurrected NeWS, the PostScript interpreter and window system. SI has studied some of the ancient unix source releases out of historical interest.",
+  },
   {
     name: "Doom modding",
     content: `SI has been making Doom maps and mods since 2015 -- MP and SI met through connections in the Doom modder community. If you have some need of understanding differences across the various engines (or in the Source engine for that matter)...
