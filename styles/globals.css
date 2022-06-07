@@ -128,11 +128,35 @@ code {
   animation-fill-mode: forwards;
 }
 
-.inplace {
+.inplace * {
   transform: rotate(0deg) translate(0px, 0px);
-  animation: 12s inplace linear;
-  animation-delay: 2s;
+  animation: 2s inplace cubic-bezier(1,-0.01,.78,1.05);
+  animation-delay: 5s;
   animation-fill-mode: forwards;
+}
+
+.inplace span:nth-child(2) {
+  animation-delay: 5.2s;
+}
+
+.inplace span:nth-child(3) {
+  animation-delay: 5.5s;
+}
+
+.inplace span:nth-child(4) {
+  animation-delay: 6s;
+}
+
+.inplace span:nth-child(5) {
+  animation-delay: 6.2s;
+}
+
+.gradient-anim {
+  background: url(https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal1-dither.png), white;
+  background-size: 400% 400%;
+  animation: 60s gradientAnim linear infinite;
+  animation-direction: alternate;
+  transition:all 1s ease;
 }
 
 .portfolio h2:nth-child(2) { animation-delay: .1s }
@@ -147,6 +171,14 @@ code {
 .portfolio h2:nth-child(11) { animation-delay: 1s }
 .portfolio h2:nth-child(12) { animation-delay: 1.1s }
 
+@keyframes gradientAnim {
+  from {
+    background-position: 100% 100%;
+  }
+  to {
+    background-position: 0% 0%;
+  }
+}
 @keyframes spin {
   from {transform: rotate(0deg) scale(1);}
   87% {transform: rotate(360deg) scale(2);}
@@ -194,6 +226,6 @@ code {
     transform: rotate(0deg) translate(0px, 0px);
   }
   100% {
-    transform: rotate(-2deg) translate(0px, 100px);
+    transform: rotate(-3deg) translate(0px, 100px);
   }
 }

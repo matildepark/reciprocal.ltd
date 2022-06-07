@@ -59,13 +59,24 @@ export default function Home() {
         src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
       />
       <p className="text-8xl mt-8 md:hidden z-10 text-black font-sans">ꜜ</p>
-      <h2 className="text-center hidden md:flex items-center text-4xl z-10 bg-black pr-2 fixed inplace">
+      <div className="inplace text-center flex">
         <img
-          className="w-24 pr-4"
+          className="w-24"
           src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
-        />{" "}
-        is an interactive design and development studio.
-      </h2>
+        />
+        <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
+          is an
+        </span>
+        <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
+          interactive design
+        </span>
+        <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
+          and development
+        </span>
+        <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
+          studio.
+        </span>
+      </div>
 
       <Footer black />
     </div>
