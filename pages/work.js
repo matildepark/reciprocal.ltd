@@ -27,11 +27,12 @@ export default function WorkPage() {
         <title>Reciprocal Ltd. - Portfolio</title>
         <meta name="theme-color" content="black" />
       </Head>
-      <div className="bg-white text-black overflow-hidden">
+      <div className="bg-black text-black overflow-hidden">
         <Header black />
         <div
-          className={classNames("overflow-hidden", {
+          className={classNames("overflow-hidden bg-black", {
             "checkerboard grid": playAnimation,
+            "opacity-0": !playAnimation,
           })}
         >
           <div
