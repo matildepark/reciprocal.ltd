@@ -5,7 +5,7 @@ export default function Footer({ black, ...props }) {
     <footer
       {...props}
       className={
-        "fixed bottom-0 left-0 flex items-center w-screen overflow-y-hidden overflow-x-auto " +
+        "fixed z-10 bottom-0 left-0 flex items-center w-screen overflow-y-hidden overflow-x-auto " +
         (black ? "bg-black" : "mix-blend-difference")
       }
     >
@@ -18,6 +18,9 @@ export default function Footer({ black, ...props }) {
       </Link>
       <Link href="/work" passHref>
         <a className="text-2xl text-white pr-8 hover:text-magenta">/work</a>
+      </Link>
+      <Link href="/contact" passHref>
+        <a className="text-2xl text-white pr-8 hover:text-magenta">/contact</a>
       </Link>
     </footer>
   );
