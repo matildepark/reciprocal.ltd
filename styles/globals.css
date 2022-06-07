@@ -130,25 +130,24 @@ code {
 
 .inplace * {
   transform: rotate(0deg) translate(0px, 0px);
-  animation: 2s inplace cubic-bezier(1,-0.01,.78,1.05);
-  animation-delay: 5s;
+  animation: 1s inplace cubic-bezier(1,-0.1,0,1.12);
   animation-fill-mode: forwards;
 }
 
 .inplace span:nth-child(2) {
-  animation-delay: 5.2s;
+  animation-delay: .2s;
 }
 
 .inplace span:nth-child(3) {
-  animation-delay: 5.5s;
+  animation-delay: .5s;
 }
 
 .inplace span:nth-child(4) {
-  animation-delay: 6s;
+  animation-delay: 1s;
 }
 
 .inplace span:nth-child(5) {
-  animation-delay: 6.2s;
+  animation-delay: 1.2s;
 }
 
 .gradient-anim {
