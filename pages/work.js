@@ -1,11 +1,26 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
-import { useRef, useEffect } from "react";
-import Parallax from "parallax-js";
+import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
+import classNames from "classnames";
 
 export default function WorkPage() {
+  const [playAnimation, setPlayAnimation] = useState(false);
+
+  useEffect(() => {
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+    };
+
+    if (document.readyState === "complete") {
+      onPageLoad();
+    } else {
+      window.addEventListener("load", onPageLoad);
+      return () => window.removeEventListener("load", onPageLoad);
+    }
+  }, []);
+
   return (
     <>
       <Head>
@@ -14,14 +29,22 @@ export default function WorkPage() {
       </Head>
       <div className="bg-white text-black overflow-hidden">
         <Header black />
-        <div className="overflow-hidden checkerboard grid">
+        <div
+          className={classNames("overflow-hidden", {
+            "checkerboard grid": playAnimation,
+          })}
+        >
           <div
-            className="wait-and-rotate overflow-hidden"
+            className={classNames("overflow-hidden wait-preload", {
+              "wait-and-rotate": playAnimation,
+              "opacity-0": !playAnimation,
+            })}
             style={{ width: "calc(100vw + 200px)" }}
           >
             <Marquee
               gradient={false}
               speed={20}
+              play={playAnimation}
               className="invisible md:visible z-0"
             >
               <img
@@ -37,12 +60,17 @@ export default function WorkPage() {
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..05.05.10-collage1.jpg"
+                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..21.55.14-collage3.jpg"
               />
             </Marquee>
           </div>
         </div>
-        <div className="fixed -top-4 -right-2 text-8xl steps portfolio">
+        <div
+          className={classNames("fixed -top-4 -right-2 text-8xl steps", {
+            portfolio: playAnimation,
+            "opacity-0": !playAnimation,
+          })}
+        >
           <h2>PORTFOLIO</h2>
           <h2>PORTFOLIO</h2>
           <h2>PORTFOLIO</h2>
@@ -70,7 +98,7 @@ export default function WorkPage() {
               </li>
             </a>
 
-            <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta">
+            {/* <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta">
               <a
                 className="font-semibold"
                 target="_blank"
@@ -114,7 +142,7 @@ export default function WorkPage() {
                 </a>
                 .
               </p>
-            </li>
+            </li> */}
             <a target="_blank" href="https://urbit.org">
               <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta cursor-pointer">
                 <p className="font-semibold">Urbit Foundation</p>
