@@ -191,7 +191,7 @@ export default function WorkPage() {
               </a>
               <a
                 target="_blank"
-                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-diameter2.png"
+                href="https://nopeakhours.bandcamp.com/album/diameter"
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
@@ -200,7 +200,7 @@ export default function WorkPage() {
               </a>
               <a
                 target="_blank"
-                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-posiwid.png"
+                href="https://nopeakhours.bandcamp.com/track/the-purpose-of-a-system-is-what-it-does-posiwid"
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
