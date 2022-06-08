@@ -56,7 +56,7 @@ export default function WorkPage() {
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..05.05.10-collage1.jpg"
+                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..08.34.31-collage2.jpg"
               />
               <img
                 style={{ maxHeight: "100vh" }}
