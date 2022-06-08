@@ -23,6 +23,10 @@ class MyDocument extends Document {
             content="Reciprocal is an interactive design and development studio."
           />
           <meta
+            name="description"
+            content="Reciprocal is an interactive design and development studio based out of Vancouver, Canada. We create interactive media, video games, and provide full development service and management to external clients."
+          />
+          <meta
             name="twitter:image"
             content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.23..13.45.18-twit-card.png"
           />
