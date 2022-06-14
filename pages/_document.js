@@ -34,6 +34,21 @@ class MyDocument extends Document {
             rel="icon"
             href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..19.52.50-B137D4AA-DA9E-4B07-98CE-C001C576C7CA_1_201_a.jpeg"
           />
+          <link
+            rel="preload"
+            as="image"
+            href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..05.05.10-collage1.jpg"
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..08.34.31-collage2.jpg"
+          />
+          <link
+            rel="preload"
+            as="image"
+            href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..21.55.14-collage3.jpg"
+          />
         </Head>
         <body>
           <Main />
