@@ -164,7 +164,7 @@ export default function WorkPage() {
               <a target="_blank" href="/portfolio/landscape">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..15.57.56-original_5ef5d6892515506a74e95258f3168f2a.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.18.41-2022.6.05..15.57.56-original_5ef5d6892515506a74e95258f3168f2a.jpg"
                 />
               </a>
             </div>
@@ -173,20 +173,20 @@ export default function WorkPage() {
             <div className="flex flex-wrap portfolio">
               <a
                 target="_blank"
-                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-fortress.png"
+                href="https://brainfunnel.bandcamp.com/album/a-fortress-for-all-mankind"
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-fortress.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.10.30-fortress.png"
                 />
               </a>
               <a
                 target="_blank"
-                href="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-shitpost.png"
+                href="https://brainfunnel.bandcamp.com/album/shitpost-futurist"
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..21.52.26-shitpost.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.15.46-shitpost.jpg"
                 />
               </a>
               <a
@@ -195,7 +195,7 @@ export default function WorkPage() {
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-diameter2.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.14.29-diameter2.jpg"
                 />
               </a>
               <a
@@ -204,7 +204,7 @@ export default function WorkPage() {
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.06..00.05.30-posiwid.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.08.31-posiwid-smol.jpg"
                 />
               </a>
             </div>
@@ -218,7 +218,7 @@ export default function WorkPage() {
               >
                 <img
                   className="w-24 h-24 rounded-xl"
-                  src="https://aether.in.net/img/local-itch.jpg"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.13.49-local-itch.jpg"
                 />
               </a>
               <a
@@ -227,7 +227,7 @@ export default function WorkPage() {
               >
                 <img
                   className="w-24 h-24 rounded-xl"
-                  src="https://aether.in.net/img/subserial.jpg"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.19.32-subserial.jpg"
                 />
               </a>
             </div>
