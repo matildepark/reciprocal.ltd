@@ -156,11 +156,20 @@ export default function WorkPage() {
             </a>
 
             <p>
-              As Reciprocal Ltd. was recently founded, all preceding work is
+              As Reciprocal Ltd. was recently founded, some of these samples are
               sourced from our individual portfolios.
             </p>
             <h2 className="steps text-2xl">Software development</h2>
             <div className="flex flex-wrap portfolio">
+              <a
+                target="_blank"
+                href="https://urbit.org/applications/~sitden-sonnet/channel"
+              >
+                <img
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.7.09..22.54.53-channel.png"
+                  className="w-24 h-24 rounded-xl object-cover"
+                />
+              </a>
               <a target="_blank" href="/portfolio/landscape">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
