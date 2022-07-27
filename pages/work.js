@@ -51,17 +51,17 @@ export default function WorkPage() {
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.05..05.05.10-collage1.jpg"
+                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.13-collage1.jpg"
               />
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..08.34.31-collage2.jpg"
+                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.19-collage2.jpg"
               />
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..21.55.14-collage3.jpg"
+                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.25-collage3.jpg"
               />
             </Marquee>
           </div>
@@ -166,7 +166,7 @@ export default function WorkPage() {
                 href="https://urbit.org/applications/~sitden-sonnet/channel"
               >
                 <img
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.7.09..22.54.53-channel.png"
+                  src="https://rift.reciprocal.ltd/channel/2022.7.27..21.08.18-icon.png"
                   className="w-24 h-24 rounded-xl object-cover"
                 />
               </a>

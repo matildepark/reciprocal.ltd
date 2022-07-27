@@ -151,7 +151,7 @@ code {
 }
 
 .gradient-anim {
-  background: url(https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.21..22.28.25-reciprocal1-dither.png), white;
+  background: url(https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.27.40-reciprocal1-dither.png), white;
   background-size: 400% 400%;
   animation: 60s gradientAnim linear infinite;
   animation-direction: alternate;
@@ -170,6 +170,9 @@ code {
 .portfolio h2:nth-child(11) { animation-delay: 1s }
 .portfolio h2:nth-child(12) { animation-delay: 1.1s }
 
+.xanh {
+  font-family: 'Xanh Mono';
+}
 @keyframes gradientAnim {
   from {
     background-position: 100% 100%;

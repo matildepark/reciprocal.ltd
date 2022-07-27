@@ -160,7 +160,7 @@ export default function About() {
           <div className="shrink-0 w-full flex items-center justify-center">
             <img
               className="w-48 basis-1/4 grow-0"
-              src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.20..16.59.22-reciprocal tweak - simone.png"
+              src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.22.35-logo.png"
             />
           </div>
           {skills.map((e, i) => (
