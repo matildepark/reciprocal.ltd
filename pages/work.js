@@ -89,17 +89,8 @@ export default function WorkPage() {
         <div className="w-full max-w-screen-sm h-screen absolute pt-16 bg-black mx-auto top-0 overflow-y-auto">
           <div className="text-white p-6 font-sans list-none flex flex-col space-y-8 pb-16">
             <h2 className="steps text-2xl">Current work</h2>
-            <a target="_blank" href="https://banyan.computer">
-              <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta cursor-pointer">
-                <p className="font-semibold">Banyan Storage Inc.</p>
-                <p>
-                  Consultancy on front-end management, specification, hiring
-                  process; graphic design and brand.
-                </p>
-              </li>
-            </a>
 
-            {/* <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta">
+            <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta">
               <a
                 className="font-semibold"
                 target="_blank"
@@ -143,7 +134,7 @@ export default function WorkPage() {
                 </a>
                 .
               </p>
-            </li> */}
+            </li>
             <a target="_blank" href="https://urbit.org">
               <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta cursor-pointer">
                 <p className="font-semibold">Urbit Foundation</p>
