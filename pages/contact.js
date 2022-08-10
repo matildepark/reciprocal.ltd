@@ -11,9 +11,6 @@ export default function Contact() {
       <div className="bg-white grid gradient-anim z-0">
         <Header black />
         <div className="pt-16 p-4 bg-black text-white flex flex-col space-y-4 font-sans w-full max-w-screen-sm min-h-screen z-10">
-          <blockquote className="xanh border-l pl-4 italic">
-            The last days arrived without a guess.
-          </blockquote>
           <h2 className="pt-6 steps text-2xl">About Reciprocal</h2>
           <p>
             Reciprocal Technologies Ltd. is a privately-owned legal corporation
