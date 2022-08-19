@@ -81,6 +81,13 @@ export default function About() {
           >
             <span>SIMONE IVANISH</span>
           </a>
+          <a
+            className="text-4xl px-64 hover:underline cursor-pointer"
+            href="http://lulupd.me"
+            target="_blank"
+          >
+            <span>LUCY PIRES DIAS</span>
+          </a>
         </Marquee>
       </div>
       <div className="pt-16 p-4 bg-black text-white">

@@ -102,6 +102,11 @@ Related material:
     content:
       "We have an external consult for ML and can incorporate it into necessary work, but it isn't our current specialisation.",
   },
+  {
+    name: "3D modelling",
+    content:
+      "LPD does the Blender well to make your dreams of the occult parametric and computational.",
+  },
 ];
 
 export default skill;
