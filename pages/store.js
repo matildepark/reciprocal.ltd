@@ -108,7 +108,7 @@ export default function PreviewPage({ products }) {
       <Header black />
       <div className="fixed h-screen w-screen" ref={sceneEl}>
         <video
-          mute="true"
+          mute
           autoPlay
           playsInline
           loop
