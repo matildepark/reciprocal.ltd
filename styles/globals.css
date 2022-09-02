@@ -49,7 +49,16 @@ code {
 }
 
 .markdown p, .markdown iframe {
-  margin-top: 0.25rem;
+  margin-top: 1rem;
+}
+
+.markdown ul {
+  margin: 2rem 0;
+  list-style: disc;
+}
+
+.markdown ul li {
+  list-style-position: inside;
 }
 
 .markdown blockquote {
@@ -98,7 +107,7 @@ code {
   @apply border-4 border-transparent border-double hover:border-white rounded-xl transition-all;
 }
 
-.grid::after {
+.checker-grid::after {
   content: "";
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2NkYGD4D8SMQAwGcAY2AbBKDBUAVuYCBQPd34sAAAAASUVORK5CYII=) repeat;
   width:100%;
@@ -173,6 +182,8 @@ code {
 .xanh {
   font-family: 'Xanh Mono';
 }
+
+
 @keyframes gradientAnim {
   from {
     background-position: 100% 100%;
