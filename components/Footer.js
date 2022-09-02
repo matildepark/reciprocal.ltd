@@ -22,6 +22,9 @@ export default function Footer({ black, ...props }) {
       <Link href="/contact" passHref>
         <a className="text-2xl text-white pr-8 hover:text-magenta">/contact</a>
       </Link>
+      <Link href="/store" passHref>
+        <a className="text-2xl text-white pr-8 hover:text-magenta">/store</a>
+      </Link>
     </footer>
   );
 }
