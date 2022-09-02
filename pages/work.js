@@ -24,14 +24,29 @@ export default function WorkPage() {
   return (
     <>
       <Head>
-        <title>Reciprocal Ltd. - Portfolio</title>
+        <title>Portfolio - Reciprocal Ltd.</title>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@reciprocal-ltd" />
+        <meta name="twitter:title" content="Reciprocal Ltd." />
+        <meta
+          name="twitter:description"
+          content="View the Reciprocal catalogue."
+        />
+        <meta
+          name="description"
+          content="Reciprocal is an interactive design and development studio based out of Vancouver, Canada. We create interactive media, video games, and provide full development service and management to external clients."
+        />
+        <meta
+          name="twitter:image"
+          content="https://rift.reciprocal.ltd/reciprocal.ltd/store.jpg"
+        />
         <meta name="theme-color" content="black" />
       </Head>
       <div className="bg-black text-black overflow-hidden">
         <Header black />
         <div
           className={classNames("overflow-hidden bg-black", {
-            "checkerboard grid": playAnimation,
+            "checkerboard grid checker-grid": playAnimation,
             "opacity-0": !playAnimation,
           })}
         >

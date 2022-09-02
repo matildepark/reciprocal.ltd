@@ -15,21 +15,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link href="/fonts.css" rel="stylesheet" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@reciprocal-ltd" />
-          <meta name="twitter:title" content="Reciprocal Ltd." />
-          <meta
-            name="twitter:description"
-            content="Reciprocal is an interactive design and development studio."
-          />
-          <meta
-            name="description"
-            content="Reciprocal is an interactive design and development studio based out of Vancouver, Canada. We create interactive media, video games, and provide full development service and management to external clients."
-          />
-          <meta
-            name="twitter:image"
-            content="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.23.52-card.png"
-          />
           <link
             rel="icon"
             href="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.24.32-icon.jpeg"

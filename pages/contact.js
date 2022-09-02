@@ -6,9 +6,9 @@ export default function Contact() {
     <>
       <Head>
         <title>Reciprocal Ltd. - Contact</title>
-        <meta name="theme-color" content="yellow" />
+        <meta name="theme-color" content="green" />
       </Head>
-      <div className="bg-white grid gradient-anim z-0">
+      <div className="bg-white checker-grid grid gradient-anim z-0">
         <Header black />
         <div className="pt-16 p-4 bg-black text-white flex flex-col space-y-4 font-sans w-full max-w-screen-sm min-h-screen z-10">
           <h2 className="pt-6 steps text-2xl">About Reciprocal</h2>
