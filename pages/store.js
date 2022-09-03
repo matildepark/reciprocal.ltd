@@ -121,10 +121,10 @@ export default function PreviewPage({ products }) {
           ></source>
         </video>
       </div>
-      <div className="absolute">
+      <div className="absolute w-screen h-screen overflow-hidden">
         <div
           className={classNames(
-            "fixed -top-4 -right-2 text-8xl steps mix-blend-difference text-white invisible md:visible",
+            "fixed -top-4 -right-2 text-8xl steps mix-blend-difference text-white hidden md:block",
             {
               portfolio: playAnimation,
               "opacity-0": !playAnimation,
@@ -172,6 +172,7 @@ export default function PreviewPage({ products }) {
                   cart
                   <span
                     className="cursor-pointer"
+                    onTouchEnd={() => showCart(false)}
                     onClick={() => showCart(false)}
                   >
                     x
@@ -193,6 +194,7 @@ export default function PreviewPage({ products }) {
                             {product.price}
                             <a
                               className="ml-2 cursor-pointer"
+                              onTouchEnd={() => setCart([...cart.slice(0, i), ...cart.slice(i + 1)])}
                               onClick={() =>
                                 setCart([
                                   ...cart.slice(0, i),
@@ -248,6 +250,7 @@ export default function PreviewPage({ products }) {
                   {e.name}
                   <span
                     className="cursor-pointer"
+                    onTouchEnd={() => setDisplayed(displayed.filter((prompt) => prompt !== e))}
                     onClick={() =>
                       setDisplayed(displayed.filter((prompt) => prompt !== e))
                     }
@@ -267,6 +270,7 @@ export default function PreviewPage({ products }) {
                 ></ReactMarkdown>
                 <a
                   className="steps bg-white text-black uppercase p-1 border rounded-sm cursor-pointer hover:text-[#0049dc]"
+                  onTouchEnd={() => setCart([...cart, e])}
                   onClick={() => setCart([...cart, e])}
                 >
                   4dd 70 c4r7
@@ -275,7 +279,7 @@ export default function PreviewPage({ products }) {
             ))}
             <img
               src="https://rift.reciprocal.ltd/reciprocal.ltd/vendor_lowfi.png"
-              className="absolute top-[-12rem] right-[-11rem] -z-10 invisible md:visible"
+              className="absolute top-[-12rem] right-[-11rem] -z-10 hidden md:block"
               style={{
                 height: "480px",
                 width: "480px",
@@ -300,6 +304,7 @@ export default function PreviewPage({ products }) {
             <div className="grid grid-cols-2 gap-4 pb-8">
               {products.map((product) => (
                 <div
+                  onTouchEnd={() => setDisplayed([...displayed, product])}
                   onClick={() => setDisplayed([...displayed, product])}
                   className="flex flex-col p-2 border-white border-double border-4 rounded-xl w-fit cursor-pointer hover:text-[#ff0000] hover:border-[#ff0000]"
                 >
@@ -315,6 +320,7 @@ export default function PreviewPage({ products }) {
             <a
               className="steps bg-white text-black uppercase p-1 mr-4 border rounded-sm hover:border-[#ff0000] hover:bg-[#ff0000] text-2xl"
               href="#"
+              onTouchEnd={() => showCart(true)}
               onClick={() => showCart(true)}
             >
               c4r7 {cart?.length > 0 && `(${cart.length})`}
