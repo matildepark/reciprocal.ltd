@@ -188,11 +188,11 @@ export default function WorkPage() {
             <div className="flex flex-wrap portfolio">
               <a
                 target="_blank"
-                href="https://brainfunnel.bandcamp.com/album/a-fortress-for-all-mankind"
+                href="https://brainfunnel.bandcamp.com/track/to-trigger-a-synapse"
               >
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.10.30-fortress.png"
+                  src="https://rift.reciprocal.ltd/reciprocal.ltd/to_trigger_a_synapse.png"
                 />
               </a>
               <a
