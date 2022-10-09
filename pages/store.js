@@ -343,7 +343,7 @@ export default function PreviewPage({ products }) {
 }
 
 export async function getServerSideProps() {
-  const products = await axios.get("http://sitden.reciprocal.ltd:4242/product").then((res) => res.data);
+  const products = await axios.get("https://sitden.reciprocal.ltd:4242/product").then((res) => res.data);
 
   return { props: products }
 }
