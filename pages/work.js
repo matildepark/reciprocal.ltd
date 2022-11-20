@@ -103,64 +103,6 @@ export default function WorkPage() {
         </div>
         <div className="w-full max-w-screen-sm h-screen absolute pt-16 bg-black mx-auto top-0 overflow-y-auto">
           <div className="text-white p-6 font-sans list-none flex flex-col space-y-8 pb-16">
-            <h2 className="steps text-2xl">Current work</h2>
-
-            <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta">
-              <a
-                className="font-semibold"
-                target="_blank"
-                href="https://interchain.io"
-              >
-                Interchain Foundation
-              </a>
-              <p>
-                Working alongside{" "}
-                <a
-                  className="border-b"
-                  target="_blank"
-                  href="https://otherinter.net"
-                >
-                  Other Internet
-                </a>{" "}
-                and{" "}
-                <a
-                  className="border-b"
-                  target="_blank"
-                  href="https://www.toluwalashe.com/"
-                >
-                  Zahir Ramos
-                </a>{" "}
-                for product and UI discovery, renovation and architecture for an
-                incoming governance application. Stakeholders include{" "}
-                <a
-                  className="border-b"
-                  target="_blank"
-                  href="https://hypha.coop/"
-                >
-                  Hypha Co-operative
-                </a>{" "}
-                and the{" "}
-                <a
-                  className="border-b"
-                  target="_blank"
-                  href="https://www.cosmosbuilders.org/"
-                >
-                  Cosmos Builders Foundation
-                </a>
-                .
-              </p>
-            </li>
-            <a target="_blank" href="https://urbit.org">
-              <li className="block bg-white text-black p-2 rounded-lg border-4 border-double border-black hover:bg-magenta cursor-pointer">
-                <p className="font-semibold">Urbit Foundation</p>
-                <p>
-                  Stewarding developer outreach products (clearnet, ecosystem,
-                  network utilities, developer experience), mentoring incoming
-                  developers.
-                </p>
-              </li>
-            </a>
-
             <p>
               As Reciprocal Ltd. was recently founded, some of these samples are
               sourced from our individual portfolios.
@@ -204,24 +146,6 @@ export default function WorkPage() {
                   src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.15.46-shitpost.jpg"
                 />
               </a>
-              <a
-                target="_blank"
-                href="https://nopeakhours.bandcamp.com/album/diameter"
-              >
-                <img
-                  className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.14.29-diameter2.jpg"
-                />
-              </a>
-              <a
-                target="_blank"
-                href="https://nopeakhours.bandcamp.com/track/the-purpose-of-a-system-is-what-it-does-posiwid"
-              >
-                <img
-                  className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.08.31-posiwid-smol.jpg"
-                />
-              </a>
             </div>
             <h2 className="steps text-2xl">
               Interactive media and video games
@@ -243,45 +167,6 @@ export default function WorkPage() {
                 <img
                   className="w-24 h-24 rounded-xl"
                   src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.19.32-subserial.jpg"
-                />
-              </a>
-            </div>
-            <h2 className="steps text-2xl">Cybersecurity work</h2>
-            <div className="flex flex-wrap portfolio">
-              <a href="https://leastauthority.com/static/publications/LeastAuthority_Swarm_Association_Bee_and_Bee_Clef_Final_Audit_Report.pdf">
-                <img
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.28.34-cs1.jpg"
-                  className="w-24 h-24 rounded-xl object-cover"
-                />
-              </a>
-              <a href="https://leastauthority.com/wp-content/uploads/2021/09/Least-Authority-Tezos-Foundation-Synthetic-Asset-Platform-Smart-Contracts-Final-Audit-Report.pdf">
-                <img
-                  className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.29.52-cs2.jpg"
-                />
-              </a>
-            </div>
-            <h2 className="steps text-2xl">Art installations</h2>
-            <div className="flex flex-wrap portfolio">
-              <a href="https://imginn.com/p/CeMBtGpu605/">
-                <img
-                  className="w-24 h-24 rounded-xl"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.06.25-resize.jpeg"
-                />
-              </a>
-            </div>
-            <h2 className="steps text-2xl">Desktop publishing</h2>
-            <div className="flex flex-wrap portfolio">
-              <a href="https://civ.rip/sd/">
-                <img
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.20.35-ps1.jpg"
-                  className="w-24 h-24 object-cover rounded-xl"
-                />
-              </a>
-              <a href="https://civ.rip/ps/">
-                <img
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.07..22.24.08-ps2.jpg"
-                  className="h-24 w-24 rounded-xl object-cover"
                 />
               </a>
             </div>

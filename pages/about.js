@@ -55,7 +55,7 @@ export default function About() {
             We provide full development service (product management and
             specification, development, design and deployment) for web and
             esoteric applications; graphic and product design, music and sound
-            design, as well as serve as a consultancy for cybersecurity.
+            design.
           </p>
           <p>
             Our internal projects are geared toward formal experiments in
@@ -81,13 +81,6 @@ export default function About() {
             target="_blank"
           >
             <span>MATILDE PARK</span>
-          </a>
-          <a
-            className="text-4xl px-64 hover:underline cursor-pointer"
-            href="https://civ.rip"
-            target="_blank"
-          >
-            <span>PHOEBE JENKINS</span>
           </a>
           <a
             className="text-4xl px-64 hover:underline cursor-pointer"
@@ -176,8 +169,7 @@ export default function About() {
           </Rnd>
         ))}
         <div
-          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-1 md:rotate-3 mt-24 bg-white shadow-2xl shadow-black"
-          style={{ maxWidth: "90vw" }}
+          className="flex flex-wrap min-h-screen mx-auto justify-between items-center rotate-1 md:rotate-3 mt-24 bg-white shadow-2xl shadow-black lg:max-w-[75vw] max-w-[50rem]"
         >
           <div className="shrink-0 w-full flex items-center justify-center">
             <img
@@ -187,7 +179,7 @@ export default function About() {
           </div>
           {skills.map((e, i) => (
             <p
-              className="basis-1/4 text-2xl text-center p-4 border-b-4 border-double border-transparent hover:border-black cursor-pointer"
+              className="basis-1/2 text-2xl text-center p-4 border-b-4 border-double border-transparent hover:border-black cursor-pointer"
               id="entry"
               key={e.name}
               onClick={() => setDisplayed([...displayed, e])}
