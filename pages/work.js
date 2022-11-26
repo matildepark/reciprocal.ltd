@@ -103,10 +103,6 @@ export default function WorkPage() {
         </div>
         <div className="w-full max-w-screen-sm h-screen absolute pt-16 bg-black mx-auto top-0 overflow-y-auto">
           <div className="text-white p-6 font-sans list-none flex flex-col space-y-8 pb-16">
-            <p>
-              As Reciprocal Ltd. was recently founded, some of these samples are
-              sourced from our individual portfolios.
-            </p>
             <h2 className="steps text-2xl">Software development</h2>
             <div className="flex flex-wrap portfolio">
               <a
@@ -118,38 +114,23 @@ export default function WorkPage() {
                   className="w-24 h-24 rounded-xl object-cover"
                 />
               </a>
-              <a target="_blank" href="/portfolio/landscape">
+              <a target="_blank" href="/portfolio/scene">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.18.41-2022.6.05..15.57.56-original_5ef5d6892515506a74e95258f3168f2a.jpg"
+                  src="https://rift.reciprocal.ltd/reciprocal.ltd/scene-logo-stroke.svg"
                 />
               </a>
             </div>
-            <h2 className="steps text-2xl">Graphic design</h2>
-            <p className="font-semibold">Album covers</p>
+            <h2 className="steps text-2xl">Web projects</h2>
             <div className="flex flex-wrap portfolio">
-              <a
-                target="_blank"
-                href="https://brainfunnel.bandcamp.com/track/to-trigger-a-synapse"
-              >
+              <a target="_blank" href="/portfolio/urbit-org">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://rift.reciprocal.ltd/reciprocal.ltd/to_trigger_a_synapse.png"
-                />
-              </a>
-              <a
-                target="_blank"
-                href="https://brainfunnel.bandcamp.com/album/shitpost-futurist"
-              >
-                <img
-                  className="w-24 h-24 rounded-xl object-cover"
-                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.15.46-shitpost.jpg"
+                  src="https://rift.reciprocal.ltd/reciprocal.ltd/urbit-org.jpg"
                 />
               </a>
             </div>
-            <h2 className="steps text-2xl">
-              Interactive media and video games
-            </h2>
+            <h2 className="steps text-2xl">Maintained historical work</h2>
             <div className="flex flex-wrap portfolio">
               <a
                 target="_blank"
@@ -167,6 +148,15 @@ export default function WorkPage() {
                 <img
                   className="w-24 h-24 rounded-xl"
                   src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.6.08..09.19.32-subserial.jpg"
+                />
+              </a>
+              <a
+                target="_blank"
+                href="https://decept.org"
+              >
+                <img
+                  className="w-24 h-24 rounded-xl"
+                  src="https://rift.reciprocal.ltd/reciprocal.ltd/6b81ada41581e4c3d5013e4a456f25f6a313df0b1343526229575e038f6654d1.png"
                 />
               </a>
             </div>
