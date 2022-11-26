@@ -38,7 +38,7 @@ export default function WorkPage() {
         />
         <meta
           name="twitter:image"
-          content="https://rift.reciprocal.ltd/reciprocal.ltd/store.jpg"
+          content="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.23.52-card.png"
         />
         <meta name="theme-color" content="black" />
       </Head>
