@@ -64,7 +64,7 @@ export default function About() {
           </p>
         </div>
         <p className="flex flex-col md:flex-row justify-between">
-          <span>Staff</span>
+          <span>COLLABORATORS (PAST AND PRESENT)</span>
           <span className="uppercase text-xs">
             Do we not, after all, deeply regret our individuation?
           </span>
@@ -84,6 +84,13 @@ export default function About() {
           </a>
           <a
             className="text-4xl px-64 hover:underline cursor-pointer"
+            href="https://civ.rip"
+            target="_blank"
+          >
+            <span>PHOEBE JENKINS</span>
+          </a>
+          <a
+            className="text-4xl px-64 hover:underline cursor-pointer"
             href="http://tilde.town/~brainfunnel/"
             target="_blank"
           >
@@ -95,35 +102,6 @@ export default function About() {
             target="_blank"
           >
             <span>LUCY PIRES DIAS</span>
-          </a>
-        </Marquee>
-      </div>
-      <div className="pt-16 p-4 bg-black text-white">
-        <p className="flex flex-col md:flex-row justify-between">
-          <span>Advisory Board</span>
-          <span className="uppercase text-xs">
-            Though I walk through the valley of the shadow of death...
-          </span>
-        </p>
-        <Marquee
-          gradient={false}
-          speed={100}
-          pauseOnHover
-          style={{ overflow: "hidden" }}
-        >
-          <a
-            className="text-4xl px-64 hover:underline cursor-pointer"
-            href="https://rhea.art"
-            target="_blank"
-          >
-            <span>RHEA MYERS</span>
-          </a>
-          <a
-            className="text-4xl px-64 hover:underline cursor-pointer"
-            href="https://tobyshorin.com"
-            target="_blank"
-          >
-            <span>TOBY SHORIN</span>
           </a>
         </Marquee>
       </div>
