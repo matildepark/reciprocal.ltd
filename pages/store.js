@@ -1,3 +1,6 @@
+export default function Store() {
+    return <div />
+}
 // import Header from "@components/Header";
 // import classNames from "classnames";
 // import Footer from "@components/Footer";
