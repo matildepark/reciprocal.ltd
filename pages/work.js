@@ -38,7 +38,7 @@ export default function WorkPage() {
         />
         <meta
           name="twitter:image"
-          content="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.23.52-card.png"
+          content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.23..13.45.18-twit-card.png"
         />
         <meta name="theme-color" content="black" />
       </Head>
@@ -66,17 +66,17 @@ export default function WorkPage() {
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.13-collage1.jpg"
+                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.55.43-2022.7.27..21.25.13-collage1.jpg"
               />
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.19-collage2.jpg"
+                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.55.43-2022.7.27..21.25.19-collage2.jpg"
               />
               <img
                 style={{ maxHeight: "100vh" }}
                 className="pr-4"
-                src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.25.25-collage3.jpg"
+                src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.55.43-2022.7.27..21.25.25-collage3.jpg"
               />
             </Marquee>
           </div>
@@ -110,14 +110,14 @@ export default function WorkPage() {
                 href="https://urbit.org/applications/~sitden-sonnet/channel"
               >
                 <img
-                  src="https://rift.reciprocal.ltd/channel/2022.7.27..21.08.18-icon.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.7.09..22.54.53-channel.png"
                   className="w-24 h-24 rounded-xl object-cover"
                 />
               </a>
               <a target="_blank" href="/portfolio/scene">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://rift.reciprocal.ltd/reciprocal.ltd/scene-logo-stroke.svg"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.53.39-scene-logo-stroke-2.svg"
                 />
               </a>
             </div>
@@ -126,7 +126,7 @@ export default function WorkPage() {
               <a target="_blank" href="/portfolio/urbit-org">
                 <img
                   className="w-24 h-24 rounded-xl object-cover"
-                  src="https://rift.reciprocal.ltd/reciprocal.ltd/urbit-org.jpg"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.53.37-urbit-org-2.jpg"
                 />
               </a>
             </div>
@@ -156,7 +156,7 @@ export default function WorkPage() {
               >
                 <img
                   className="w-24 h-24 rounded-xl"
-                  src="https://rift.reciprocal.ltd/reciprocal.ltd/6b81ada41581e4c3d5013e4a456f25f6a313df0b1343526229575e038f6654d1.png"
+                  src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.10..00.03.09-6b81ada41581e4c3d5013e4a456f25f6a313df0b1343526229575e038f6654d1-2.png"
                 />
               </a>
             </div>

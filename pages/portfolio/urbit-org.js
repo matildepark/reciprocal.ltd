@@ -4,7 +4,7 @@ export default function UrbitOrg() {
             <div className="w-full py-8 min-h-screen max-w-prose flex flex-col space-y-8 font-sans">
                 <h2 className="steps text-2xl">Urbit.org + Foundation Design System (2021-)</h2>
                 <img className="rounded-xl"
-                    src="https://rift.reciprocal.ltd/reciprocal.ltd/urbit-org-full.jpg"
+                    src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.52.24-urbit-org-full-2.jpg"
                 />
                 <p>Matilde wrote both the 2019 and 2021 refreshes of the <a target="_blank" href="https://urbit.org">Urbit.org</a> site.</p>
                 <p>After leaving the Tlon Corporation in 2021, Reciprocal on contract developed the Urbit.org website into a family of websites, and componentised its common components into the{" "}

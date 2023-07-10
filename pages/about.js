@@ -41,7 +41,7 @@ export default function About() {
         />
         <meta
           name="twitter:image"
-          content="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.23.52-card.png"
+          content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2022.5.23..13.45.18-twit-card.png"
         />
         <meta name="theme-color" content="magenta" />
       </Head>
@@ -152,7 +152,7 @@ export default function About() {
           <div className="shrink-0 w-full flex items-center justify-center">
             <img
               className="w-48 basis-1/4 grow-0"
-              src="https://rift.reciprocal.ltd/reciprocal.ltd/2022.7.27..21.22.35-logo.png"
+              src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.57.13-2022.7.27..21.22.35-logo-2.png"
             />
           </div>
           {skills.map((e, i) => (

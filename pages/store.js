@@ -101,7 +101,7 @@ export default function PreviewPage({ products }) {
         />
         <meta
           name="twitter:image"
-          content="https://rift.reciprocal.ltd/reciprocal.ltd/store.jpg"
+          content="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.10..00.00.45-store-2.jpg"
         />
         <meta name="theme-color" content="blue" />
       </Head>
@@ -116,7 +116,7 @@ export default function PreviewPage({ products }) {
           data-depth="0.05"
         >
           <source
-            src="https://rift.reciprocal.ltd/reciprocal.ltd/bg.mp4"
+            src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.10..00.00.26-bg.mp4"
             type="video/mp4"
           ></source>
         </video>
@@ -278,7 +278,7 @@ export default function PreviewPage({ products }) {
               </Rnd>
             ))}
             <img
-              src="https://rift.reciprocal.ltd/reciprocal.ltd/vendor_lowfi.png"
+              src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.10..00.01.08-vendor_lowfi-2.png"
               className="absolute top-[-12rem] right-[-11rem] -z-10 hidden md:block"
               style={{
                 height: "480px",
