@@ -33,11 +33,11 @@ export default function About() {
         <meta name="twitter:title" content="Reciprocal Ltd." />
         <meta
           name="twitter:description"
-          content="Reciprocal is an interactive design and development studio."
+          content="Reciprocal was an interactive design and development studio."
         />
         <meta
           name="description"
-          content="Reciprocal is an interactive design and development studio based out of Vancouver, Canada. We create interactive media, video games, and provide full development service and management to external clients."
+          content="Reciprocal was an interactive design and development studio based out of Vancouver, Canada. We created interactive media, video games, and provided full development service and management to external clients."
         />
         <meta
           name="twitter:image"
@@ -49,19 +49,20 @@ export default function About() {
         <Header />
         <div className="py-2 pb-16 md:py-32 max-w-screen-md mx-auto">
           <h2 className="font-sans text-center text-3xl pb-16">
-            Reciprocal Ltd. is an interactive design and development studio.
+            Reciprocal Ltd. was an interactive design and development studio.
           </h2>
           <p className="py-4">
-            We provide full development service (product management and
+            We provided full development service (product management and
             specification, development, design and deployment) for web and
             esoteric applications; graphic and product design, music and sound
             design.
           </p>
           <p>
-            Our internal projects are geared toward formal experiments in
+            Our internal projects were geared toward formal experiments in
             digital art, interactive media, cryptographic technologies, and
             video games.
           </p>
+          <p className="py-4">Our collaborators have since gone onto other projects.</p>
         </div>
         <p className="flex flex-col md:flex-row justify-between">
           <span>COLLABORATORS (PAST AND PRESENT)</span>

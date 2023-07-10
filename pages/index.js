@@ -23,11 +23,11 @@ export default function Home() {
         <meta name="twitter:title" content="Reciprocal Ltd." />
         <meta
           name="twitter:description"
-          content="Reciprocal is an interactive design and development studio."
+          content="Reciprocal was an interactive design and development studio."
         />
         <meta
           name="description"
-          content="Reciprocal is an interactive design and development studio based out of Vancouver, Canada. We create interactive media, video games, and provide full development service and management to external clients."
+          content="Reciprocal was an interactive design and development studio based out of Vancouver, Canada. We created interactive media, video games, and provided full development service and management to external clients."
         />
         <meta
           name="twitter:image"
@@ -86,7 +86,7 @@ export default function Home() {
             src="https://s3.us-east-1.amazonaws.com/haddefsigwen1/reciprocal/2023.7.09..23.54.59-2022.7.27..21.24.32-icon.jpeg"
           />
           <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
-            is an
+            was an
           </span>
           <span className="text-center pl-4 hidden md:flex items-center text-4xl z-10 bg-black">
             interactive design

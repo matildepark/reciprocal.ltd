@@ -13,21 +13,12 @@ export default function Contact() {
         <div className="pt-16 p-4 bg-black text-white flex flex-col space-y-4 font-sans w-full max-w-screen-sm min-h-screen z-10">
           <h2 className="pt-6 steps text-2xl">About Reciprocal</h2>
           <p>
-            Reciprocal Technologies Ltd. is a privately-owned legal corporation
-            based in the province of British Columbia, Canada.
+            Reciprocal Technologies Ltd. was a privately-owned legal corporation
+            based in the province of British Columbia, Canada from 2022-2023. It went defunct in 2023.
           </p>
           <h2 className="steps pt-6 text-2xl">Working with Reciprocal</h2>
           <p>
-            Reciprocal Ltd. is available on a limited basis for external
-            contracts and partners. Prospective clients (and all other
-            inquiries) may be submitted to{" "}
-            <a
-              className="border-b hover:text-magenta"
-              href="mailto:mp@reciprocal.ltd"
-            >
-              Matilde Park
-            </a>
-            .
+            Inquiries about Reciprocal and its work may be submitted to <a href="mailto:matilde@park.net">Matilde Park</a>.
           </p>
         </div>
         <Footer />
